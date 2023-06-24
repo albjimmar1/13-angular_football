@@ -1,0 +1,8 @@
+<form class="form">
+    <input 
+        name="query"
+        type="text"
+        placeholder="Cristiano Ronaldo, Messi..."
+        [(ngModel)]="name"/>
+    <button (click)="handleSubmit($event)" type="submit">Show</button>
+</form>

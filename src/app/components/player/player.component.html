@@ -1,0 +1,6 @@
+<ng-container *ngIf="render">
+    <img [src]="player.images[0]" [alt]="player.name" />
+</ng-container>
+<ng-container *ngIf="!render">
+    <h2>This search does not match, try another.</h2>
+</ng-container>

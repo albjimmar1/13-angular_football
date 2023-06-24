@@ -1,0 +1,10 @@
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-height: 540px;
+    padding-top: 3rem;
+}

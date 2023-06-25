@@ -1,10 +1,12 @@
 h2 {
     text-align: center;
+    color: #cfd7d7;
+    -webkit-text-stroke: 1px #35682d;
 }
 
 img {
     display: block;
     margin: auto;
-    max-height: 540px;
+    max-height: 70vh;
     padding-top: 3rem;
 }
